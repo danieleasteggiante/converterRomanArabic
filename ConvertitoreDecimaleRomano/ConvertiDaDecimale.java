@@ -14,9 +14,7 @@ public class ConvertiDaDecimale {
 
     int posizioneNuova;
 
-
-
-
+    
     public ConvertiDaDecimale(String input) {
         this.input = input;
 
@@ -92,7 +90,6 @@ public class ConvertiDaDecimale {
         double division = decimal / listMap.get(posizione).getDecimal();
         double rest = decimal % listMap.get(posizione).getDecimal();
 
-
         if(rest > 1){
             result = convertiNumeroConResto(rest,posizione, listMap);
             return result;
@@ -111,6 +108,5 @@ public class ConvertiDaDecimale {
     public String getResult(){
         return convertito;
     }
-
 
 }
