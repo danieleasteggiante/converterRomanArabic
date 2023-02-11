@@ -15,10 +15,6 @@ public class ConvertiDaRomano {
 
     int risultato;
 
-
-
-
-
     public ConvertiDaRomano(String input) {
         this.input = input;
 
@@ -42,7 +38,6 @@ public class ConvertiDaRomano {
             if (nrRoman.equals(el.getRoman())) {
                 result = el.getDecimal();
             }
-
         }
         return result;
     }
