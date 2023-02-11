@@ -8,15 +8,11 @@ import java.util.List;
 
 public class ApplicationConverInRoman {
 
-
-
     public static void main(String[] ars) throws IOException {
 
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
-        // Reading data using readLine
         String input = reader.readLine();
-
 
         if (input.matches("-?(0|[1-9]\\d*)")) {
             ConvertiDaDecimale converter =  new ConvertiDaDecimale(input);
